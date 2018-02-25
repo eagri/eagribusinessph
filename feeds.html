@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+    <head>
+<title>E - Agri</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+.customfont {
+font-family: Playfair Display;
+font-size: 35px;
+font-style: italic;
+font-variant: normal;
+font-weight: 650;
+
+}
+
+.font{
+font-family: Playfair Display;
+font-style: normal;
+padding: 0;
+margin: 0;
+
+}
+.header{
+
+background-color:#A26F6C;
+color:#fff;
+/*height:200px;*/
+}
+
+
+.affix {
+top: 0;
+width: 100%;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+background-color: #A26F6C;
+
+}
+
+.affix a {
+color: white;
+/*padding: 15px !important;*/
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+
+.affix-top a {
+/*padding: 25px !important;*/
+}
+
+.affix+.container-fluid {
+/*padding-top: 95px;*/
+}
+
+body{
+background-color:bisque;
+
+}
+
+</style>
+
+</head>
+
+    <body>
+    <!--FIXED HEADER : JMGR-->
+    <div class="container-fluid header"><!--height:200px;-->
+        <div class="text-center" style="padding:20px;">
+            <img src="https://image.ibb.co/izGaSc/logowdtext.png" alt="logowdtext" border="0" style="height: 200px" >
+        </div>
+    </div>
+        
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="600" >
+        <div class="container-fluid"  >
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a href="#" ><img class="navbar-brand" src="favicon.ico" alt="E Agri Icon" /></a>
+            </div>
+
+            <div class="collapse navbar-collapse font" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href=home.html>Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="shop.html">Shop<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-header disabled" href="agriproducts.html">Agri Products</a></li>
+                        <li><a href="crops.html">Crops</a></li>
+                        <li><a href="fishery.html">Fishery</a></li>
+                        <li><a href="piggery.html">Piggery</a></li>
+                        <li><a href="poultry.html">Poultry</a></li>
+                        <li><a href="ricefield.html">Rice Field</a></li>
+                        <li role="presentation" class="divider"></li>
+                        
+                        <li><a class="dropdown-header disabled" href="agrisupplies.html">Agri Supplies</a></li>
+                        <li><a href="feeds.html">Feeds</a></li>
+                        <li><a href="fertilizer.html">Fertilizer</a></li>
+                        <li><a href="pesticides.html">Pesticides</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form action="#" method="post" class="navbar-form">
+                            <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>  
+                    </li>
+                     <li><a href="signup.html">
+                            <span class=" glyphicon glyphicon-log-in"></span>
+                            Login / Signup
+                            <span class="glyphicon glyphicon-user glyphicon "></span>
+                        
+                        </a>                                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    <!-- / FIXED HEADER : JMGR-->
+
+    <!-- CONTENT AREA : JMGR-->
+    <div class="container-fluid" style="height:1000px">
+
+    </div>
+    <!-- / CONTENT AREA : JMGR-->
+
+
+
+    <!-- FIXED FOOTER : JMGR -->
+    <footer>
+        <div class="container-fluid header" style="padding-bottom: 15px;">
+        <div class="footerHeader" >
+            <div class="container">
+                <div class="col-md-4" >
+                    <h3>About us</h3>
+                    <p>
+                        We are students from Holy Cross College. This e-commerce website is a project for our capstone research 1.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Our Location </h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3852.1675764033303!2d120.76711031397096!3d15.094090168840813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396fba8a871ef9d%3A0xcf10e5f6f2a968cc!2sHoly+Cross+College+-+Pampanga!5e0!3m2!1sen!2sph!4v1519269984082" sytle="" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <br>
+                </div>
+                
+                <div class="col-md-4" >
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Mobile Phone : +63 - 915 - 152 - 3078</li>
+                        <li>E-mail : dev@eagri.cu.ma</li>
+                        
+                    </ul>
+                    <!--<p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>-->
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <br>
+    <!-- / FIXED FOOTER : JMGR -->
+        
+        
+    <!--FIXED SCRIPTS AREA : JMGR-->
+        
+    <!--FIXED SCRIPTS AREA : JMGR-->
+    </body>
+
+</html>
